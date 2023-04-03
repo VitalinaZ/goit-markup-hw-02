@@ -1,5 +1,10 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-col: #2e2f42;
+  --button-color: blue;
+}
 body {
-  font-family: roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .list {
   list-style: none;
@@ -7,6 +12,7 @@ body {
 .link {
   text-decoration: none;
 }
+/*-------hedr-------*/
 .header {
 }
 .header-navigation {
@@ -23,6 +29,115 @@ body {
   color: #2e2f42;
 }
 .header-mail {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .header-phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*---------hero---------*/
+.hero {
+}
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  line-height: 1, 07;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color, #ffffff);
+}
+.hero-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/*-------PORTFOLIO -------*/
+/*---filters---*/
+.filter-button,
+.section-filter:focus {
+  color: var(--main-button-color, blue);
+  cursor: pointer;
+}
+.filter {
+}
+.filter-list {
+}
+.list {
+}
+.filter-item {
+}
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+/*-------row 1-------*/
+.row1 {
+}
+.row1-list {
+}
+.list {
+}
+.row1-item {
+}
+.row1-title,
+.row2-title,
+.row3-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+.row1-text,
+.row2-text,
+.row3-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*-------row 2-------*/
+
+.row2-list {
+}
+.row2-item {
+}
+.row2-title {
+}
+.row2-text {
+}
+/*-------row 3-------*/
+.row3 {
+}
+.row3-list {
+}
+.row3-item {
+}
+.row3-title {
+}
+.row3-text {
 }
