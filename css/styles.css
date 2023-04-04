@@ -24,6 +24,8 @@
 }
 .header-navigation {
 }
+.contact {
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -86,11 +88,13 @@
 
 /*-------PORTFOLIO -------*/
 /*---filters---*/
-.filter-button,
-.section-filter:focus {
+.filter-button {
   color: var(--main-button-color, blue);
   cursor: pointer;
-  background-color: #2e2f42;
+  background-color: #f4f4fd;
+}
+.filter-button:is(:hover, :focus) {
+  color: #404bbf;
 }
 .filter {
 }
