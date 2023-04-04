@@ -4,7 +4,7 @@
   --button-color: blue;
   --logo-color: #4d5ae5;
 }
-body {
+.body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -90,6 +90,7 @@ body {
 .section-filter:focus {
   color: var(--main-button-color, blue);
   cursor: pointer;
+  background-color: #2e2f42;
 }
 .filter {
 }
@@ -155,3 +156,4 @@ body {
 }
 .row3-text {
 }
+/*-------footer-------*/
