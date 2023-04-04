@@ -16,6 +16,10 @@
   text-decoration: none;
   color: #2e2f42;
 }
+.link:is(:hover, :focus) {
+  color: #404bbf;
+}
+
 .span {
   color: #2e2f42;
 }
@@ -87,6 +91,10 @@
 }
 
 /*-------PORTFOLIO -------*/
+/*---contacts---*/
+.contacts {
+  font-style: normal;
+}
 /*---filters---*/
 .filter-button {
   color: var(--main-button-color, blue);
