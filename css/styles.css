@@ -40,11 +40,9 @@
   text-transform: uppercase;
   color: var(--logo-color);
 }
-.header-link {
-  color: var(--second-title-col);
-}
 .header-list {
 }
+.header-link,
 .header-item {
   font-weight: 500;
   font-size: 16px;
