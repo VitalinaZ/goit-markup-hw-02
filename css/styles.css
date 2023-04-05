@@ -41,6 +41,7 @@
   color: var(--logo-color);
 }
 .header-link {
+  color: #434455;
 }
 .header-list {
 }
@@ -79,19 +80,89 @@
   text-align: center;
   color: var(--main-title-color, #ffffff);
 }
-.hero-button:is(:hover, :focus) {
-  background-color: #404bbf;
+.hero-button {
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+.hero-button:is(:hover, :focus) {
   background-color: #404bbf;
   cursor: pointer;
 }
+/*-------Working Principles-------*/
+.principles {
+}
+.principles-list {
+}
+.principles-item {
+}
+.principles-title,
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.principles-text,
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*-------What are we doing-------*/
+.doing-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.doing-list {
+}
+.doing-item {
+}
+/*-------Our Team-------*/
+.title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.time-name {
+  background-color: #ffffff;
+}
+/*-------footer-------*/
+.footer {
+  background-color: #2e2f42;
+}
+.foter-span {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
 
-/*-------PORTFOLIO -------*/
+/*-------Portfolio-------*/
 
 /*---filters---*/
 .filter-button {
@@ -165,8 +236,4 @@
 .row3-title {
 }
 .row3-text {
-}
-/*-------footer-------*/
-.footer {
-  background-color: #2e2f42;
 }
