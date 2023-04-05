@@ -41,7 +41,7 @@
   color: var(--logo-color);
 }
 .header-link {
-  color: #434455;
+  color: var(--second-title-col);
 }
 .header-list {
 }
@@ -145,7 +145,7 @@
 }
 .team-item {
 }
-.time-name {
+.team-name {
   background-color: #ffffff;
 }
 /*-------footer-------*/
@@ -163,7 +163,10 @@
 }
 
 /*-------Portfolio-------*/
-
+/*---Contacts---*/
+.contacts-link {
+  color: #434455;
+}
 /*---filters---*/
 .filter-button {
   color: var(--main-button-color, blue);
@@ -188,52 +191,37 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.filter-button:is(:hover, :focus) {
+  color: #ffffff;
+  background-color: #404bbf;
   cursor: pointer;
 }
 /*-------row 1-------*/
-.row1 {
-}
-.row1-list {
+
+.img-list {
 }
 .list {
 }
-.row1-item {
+.img-item {
 }
-.row1-title,
-.row2-title,
-.row3-title {
+.img-title,
+.img-title,
+.img-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--second-title-color);
 }
-.row1-text,
-.row2-text,
-.row3-text {
+.img-text,
+.img-text,
+.img-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-/*-------row 2-------*/
-
-.row2-list {
-}
-.row2-item {
-}
-.row2-title {
-}
-.row2-text {
-}
-/*-------row 3-------*/
-.row3 {
-}
-.row3-list {
-}
-.row3-item {
-}
-.row3-title {
-}
-.row3-text {
 }
